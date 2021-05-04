@@ -1,5 +1,4 @@
-;;; efine.el -  Interface to FinnPlace online English-Finnish-English
-;;;             dictionary
+;;; efine.el ---  Interface to FinnPlace online English-Finnish-English dictionary
 
 ;; Copyright (C) 2001 Sami Salkosuo
 ;; Author: Sami Salkosuo 
@@ -22,7 +21,7 @@
 ;; Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;; Boston, MA 02111-1307, USA.
 
-;; Commentary:
+;;; Commentary:
 ;;
 ;; This is EMACS interface to online English-Finnish-English dictionary.
 ;; See URL: EnfinCD dictionary demo page http://212.213.217.194/cd/enfin4.htm"
@@ -43,6 +42,8 @@
 ;; Known problems:
 ;;
 ;; Umlauts (�/�) could cause incorrect results.
+
+;;; Code:
 
 (defvar efine-proxy-host nil
   "HTTP proxy host")
